@@ -35,6 +35,10 @@ h1 {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.myMissionIn2022 img {
+  width: 35%;
+}
 /* .myMissionIn2022 h1 {
   display: inline-block;
 } */
