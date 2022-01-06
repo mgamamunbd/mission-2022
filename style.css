@@ -5,51 +5,66 @@ body {
 /* Stay Focused On start from here */
 .stayFocusedOn {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
-  height: 200px;
+  height: 400px;
 }
 .stayFocusedOn > div {
   font-size: 15px;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 20px;
+}
+
+.stayFocusedOn img {
+  width: 35%;
 }
 /* Stay Focused On end here */
 /* My Mission In 2022 start from here */
 .myMissionIn2022 {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
-  height: 200px;
 }
 .myMissionIn2022 > div {
   font-size: 15px;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 20px;
+}
+/* .myMissionIn2022 h1 {
+  display: inline-block;
+} */
+#firstColumn {
+  background-color: rgb(238, 221, 221);
+  height: 400px;
+  width: 400px;
+}
+#secondColumn {
+  background-color: rgb(237, 238, 197);
+  height: 400px;
+  width: 400px;
+}
+#thirdColumn {
+  background-color: rgb(241, 175, 236);
+  height: 400px;
+  width: 400px;
 }
 /* My Mission In 2022 end here  */
 /* Devlop Without Limit start from here */
 .devlopWithoutLimit {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
-  height: 200px;
 }
 .devlopWithoutLimit > div {
   font-size: 15px;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 20px;
 }
 /* Devlop Without Limit end here */
 .globalCommunity {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
-  height: 200px;
 }
 .globalCommunity > div {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 15px;
+  margin: 10px 50px;
   padding: 20px;
 }
 
@@ -68,9 +83,7 @@ body {
   border-image: linear-gradient(180deg, lightsalmon, tomato);
   border-image-slice: 1;
 }
-img {
-  width: 30%;
-}
+
 .orangeColor {
   color: orange;
 }
@@ -79,12 +92,11 @@ img {
 /* GoOmicron start from here */
 .goOmicron {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
 }
 .goOmicron > div {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 15px;
+  margin: 10px 50px;
   padding: 20px;
 }
 /* GoOmicron end here */
