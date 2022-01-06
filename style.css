@@ -3,17 +3,60 @@ body {
   margin: 56px 335px 30px;
 }
 /* Stay Focused On start from here */
-section.stayFocusedOn {
+.stayFocusedOn {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
-.stayFocusedOn img {
-  width: 25%;
-  float: left;
-  padding: auto;
-  margin: -32px 59px 5px 250px;
+.stayFocusedOn > div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
 }
-.topText {
+/* Stay Focused On end here */
+/* My Mission In 2022 start from here */
+.myMissionIn2022 {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.myMissionIn2022 > div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+/* My Mission In 2022 end here  */
+/* Devlop Without Limit start from here */
+.devlopWithoutLimit {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.devlopWithoutLimit > div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+/* Devlop Without Limit end here */
+.globalCommunity {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.globalCommunity > div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* General Part start from here */
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
 .sideBorder {
   border-left: 5px solid;
@@ -24,75 +67,18 @@ section.stayFocusedOn {
 .orangeColor {
   color: orange;
 }
-/* Stay Focused On end here */
-/* General Part start from here */
-.anchor-button {
-  text-decoration: none;
-  background: linear-gradient(45deg, lightsalmon, tomato);
-  padding: 10px 40px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
-}
-
-div {
-  display: block;
-}
-.devlopeWithout {
-  float: left;
-  margin: 7px 8px 8px -1362px;
-}
-.devlopeWithout img {
-  width: 14%;
-}
 /* General Part end here */
 /* 2nd Part start from here */
-section.myMissionIn2022 {
-  display: flex;
-}
-.myMissionIn2022 img {
-  width: 20%;
-  margin: 31px 47px 26px 1px;
-}
-.textMyMission {
-  margin-left: 6rem;
-  text-align: center;
-}
-.missionVisionGoal {
-  width: 100%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 2%;
-}
-.globalCommunity {
-  margin: 31px 47px 26px 1px;
-}
-#firstColumn {
-  background-color: greay;
-}
-#secondColumn {
-  background-color: greay;
-}
-#thirdColumn {
-  background-color: greay;
-}
-/* 2nd Part end here */
 /* GoOmicron start from here */
-section.goOmicron {
+.goOmicron {
   display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
 }
-.staySafeWith {
-  float: left;
-  margin: -416px -119px 12px 334px;
-}
-section.goOmicron img {
-  width: 30%;
-  float: left;
-}
-
-element.style {
-  float: left;
-  margin: 187px 26px 213px 5px;
+.goOmicron > div {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
 }
 /* GoOmicron end here */
 /* Footer start from here */
