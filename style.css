@@ -1,8 +1,6 @@
 body {
   font-family: "PT Serif", serif;
-}
-main {
-  margin: 20px;
+  margin: 30px 400px 30px;
 }
 /* Stay Focused On start from here */
 section.stayFocusedOn {
@@ -69,7 +67,7 @@ section.goOmicron {
   display: flex;
 }
 section.goOmicron img {
-  width: 70%;
+  width: 30%;
 }
 /* GoOmicron end here */
 /* Footer start from here */
