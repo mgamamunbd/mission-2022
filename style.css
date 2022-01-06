@@ -37,7 +37,7 @@ h1 {
 }
 
 .myMissionIn2022 img {
-  width: 35%;
+  width: 20%;
 }
 /* .myMissionIn2022 h1 {
   display: inline-block;
@@ -79,6 +79,9 @@ h1 {
   margin: 10px 50px;
   padding: 20px;
 }
+.globalCommunity img {
+  width: 20%;
+}
 
 /* General Part start from here */
 .anchor-button {
@@ -110,6 +113,9 @@ h1 {
   font-size: 15px;
   margin: 10px 50px;
   padding: 20px;
+}
+.goOmicron img {
+  width: 20%;
 }
 /* GoOmicron end here */
 /* Footer start from here */
