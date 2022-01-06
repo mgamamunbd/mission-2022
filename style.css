@@ -10,8 +10,8 @@ section.stayFocusedOn {
   margin-bottom: 50px;
 }
 .stayFocusedOn img {
-  width: 100%;
-  float: right;
+  width: 25%;
+  float: left;
   padding: auto;
 }
 .topText {
@@ -36,7 +36,7 @@ section.stayFocusedOn {
   font-weight: 700;
 }
 img {
-  width: 50%;
+  width: 13%;
 }
 
 /* General Part end here */
