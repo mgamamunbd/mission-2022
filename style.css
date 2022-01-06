@@ -38,6 +38,7 @@ h1 {
 
 .myMissionIn2022 img {
   width: 20%;
+  align-items: center;
 }
 /* .myMissionIn2022 h1 {
   display: inline-block;
@@ -81,6 +82,7 @@ h1 {
 }
 .globalCommunity img {
   width: 20%;
+  align-items: center;
 }
 
 /* General Part start from here */
