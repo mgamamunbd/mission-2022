@@ -1,6 +1,6 @@
 body {
   font-family: "PT Serif", serif;
-  margin: 30px 400px 30px;
+  margin: 56px 335px 30px;
 }
 /* Stay Focused On start from here */
 section.stayFocusedOn {
@@ -11,6 +11,7 @@ section.stayFocusedOn {
   width: 25%;
   float: left;
   padding: auto;
+  margin: -32px 59px 5px 250px;
 }
 .topText {
 }
@@ -36,11 +37,18 @@ section.stayFocusedOn {
 img {
   width: 13%;
 }
+div {
+  display: block;
+}
 
 /* General Part end here */
 /* 2nd Part start from here */
 section.myMissionIn2022 {
   display: flex;
+}
+.myMissionIn2022 img {
+  width: 20%;
+  margin: 49px -104px 4px 120px;
 }
 .textMyMission {
   margin-left: 6rem;
@@ -51,6 +59,10 @@ section.myMissionIn2022 {
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+}
+.globalCommunity {
+  float: left;
+  margin: 1px 45px 45px 1px;
 }
 #firstColumn {
   background-color: greay;
@@ -68,6 +80,12 @@ section.goOmicron {
 }
 section.goOmicron img {
   width: 30%;
+  float: left;
+}
+
+element.style {
+  float: left;
+  margin: 187px 26px 213px 5px;
 }
 /* GoOmicron end here */
 /* Footer start from here */
