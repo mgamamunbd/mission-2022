@@ -1,3 +1,81 @@
 body {
   font-family: "PT Serif", serif;
 }
+/* Stay Focused On start from here */
+section.stayFocusedOn {
+  display: flex;
+  margin-bottom: 50px;
+}
+.stayFocusedOn img {
+  width: 100%;
+  float: right;
+  padding: auto;
+}
+.topText {
+}
+.sideBorder {
+  border-left: 5px solid;
+  padding: 3px;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+.orangeColor {
+  color: orange;
+}
+/* Stay Focused On end here */
+/* General Part start from here */
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+img {
+  width: 80%;
+}
+
+/* General Part end here */
+/* 2nd Part start from here */
+section.myMissionIn2022 {
+  display: flex;
+}
+.textMyMission {
+  margin-left: 6rem;
+  text-align: center;
+}
+.missionVisionGoal {
+  width: 100%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+#firstColumn {
+  background-color: greay;
+}
+#secondColumn {
+  background-color: greay;
+}
+#thirdColumn {
+  background-color: greay;
+}
+/* 2nd Part end here */
+/* GoOmicron start from here */
+section.goOmicron {
+  display: flex;
+}
+section.goOmicron img {
+  width: 70%;
+}
+/* GoOmicron end here */
+/* Footer start from here */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+footer #mission2022 {
+  color: orange;
+}
+/* Footer end here */
