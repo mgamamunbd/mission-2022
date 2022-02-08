@@ -1,120 +1,23 @@
 /** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 
 body {
-  font-family: "PT Serif", serif;
-  margin: 0 100px;
-}
-/* Stay Focused On start from here */
-.stayFocusedOn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  align-content: center;
-}
-.mission {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-.mission-img {
-  /* width: 100%;
-  height: 100%; */
-  object-fit: cover;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-.stayFocusedOn > div {
-  font-size: 15px;
-  text-align: left;
-  margin-bottom: 50px;
-  height: 400px;
-  /* width: 400px; */
-}
-.stayFocusedOn img {
-  width: 20%;
-  margin-top: 50px;
-  padding-left: 500px;
-}
-.stayFocusedOn h1 {
-  text-align: left;
-  padding-left: 5px;
-}
-/* Stay Focused On end here */
-/* My Mission In 2022 start from here */
-.myMissionIn2022 {
-  display: flex;
-  margin-bottom: 50px;
-  padding: 50px;
-}
-.myMissionIn2022 > div {
-  font-size: 15px;
-  margin-bottom: 50px;
-  padding: 20px;
-  height: 400px;
-  width: 400px;
+  font-family: "Source Serif 4", sans-serif;
 }
 h1 {
   text-align: center;
+  font-size: 2.5rem;
 }
-
-.myMissionIn2022 img {
-  width: 30%;
-  align-items: center;
+p {
+  font-size: 1.5rem;
 }
-#firstColumn {
-  background-color: rgb(238, 221, 221);
-  padding-left: 20px;
-}
-#secondColumn {
-  background-color: rgb(237, 238, 197);
-  padding-left: 20px;
-}
-#thirdColumn {
-  background-color: rgb(241, 175, 236);
-  padding-left: 20px;
-}
-/* My Mission In 2022 end here  */
-/* Devlop Without Limit start from here */
-.devlopWithoutLimit {
-  display: flex;
-  margin-bottom: 50px;
-}
-.devlopWithoutLimit > div {
-  font-size: 15px;
-  margin-bottom: 50px;
-  padding: 20px;
-  text-align: left;
-}
-.devlopWithoutLimit img {
-  float: left;
-  width: 20%;
-}
-/* Devlop Without Limit end here */
-.globalCommunity {
-  display: flex;
-  margin-bottom: 50px;
-}
-.globalCommunity > div {
-  font-size: 15px;
-  margin-bottom: 50px;
-  padding: 20px;
-}
-.globalCommunity img {
-  width: 20%;
-  align-items: center;
-  float: right;
-}
-
-/* General Part start from here */
 .anchor-button {
   text-decoration: none;
   background: linear-gradient(45deg, lightsalmon, tomato);
@@ -132,24 +35,7 @@ h1 {
 .orangeColor {
   color: orange;
 }
-/* General Part end here */
-/* 2nd Part start from here */
-/* GoOmicron start from here */
-.goOmicron {
-  display: flex;
-  margin-bottom: 50px;
-}
-.goOmicron > div {
-  font-size: 15px;
-  margin-bottom: 50px;
-  padding: 20px;
-  text-align: right;
-}
-.goOmicron img {
-  width: 20%;
-  float: left;
-}
-/* GoOmicron end here */
+
 /* Footer start from here */
 footer {
   text-align: center;
