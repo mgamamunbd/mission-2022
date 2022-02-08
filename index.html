@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container">
-    <a class="navbar-brand img-fluid p-2" href="#"><img src="images/shapes/shape-7.png" alt="" width="50px">Mission 2022</a>
+    <a class="navbar-brand img-fluid p-2" href="#"><img class="p-2" src="images/shapes/shape-7.png" alt="" width="50px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,10 +31,13 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Disabled</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,9 +46,6 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -58,6 +58,12 @@
     </header>
     <!-- header section end here -->
     <!-- Stay Focused On start from here -->
+<section class="container">
+<div class="alert alert-primary alert-dismissible fade show position-absolute top-75 start-75" role="alert">
+  <strong>Hollow!</strong> How are you?.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+</section>
 <section>
       <div class="container d-flex justify-content-between align-items-center pb-5">
       <div class="col-8">
