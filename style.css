@@ -1,17 +1,43 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
 body {
   font-family: "PT Serif", serif;
-  margin: 150px 150px 150px 150px;
+  margin: 0 100px;
 }
 /* Stay Focused On start from here */
 .stayFocusedOn {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.mission-img {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .stayFocusedOn > div {
   font-size: 15px;
   text-align: left;
   margin-bottom: 50px;
   height: 400px;
-  width: 400px;
+  /* width: 400px; */
 }
 .stayFocusedOn img {
   width: 20%;
@@ -27,7 +53,7 @@ body {
 .myMissionIn2022 {
   display: flex;
   margin-bottom: 50px;
-  paddi
+  padding: 50px;
 }
 .myMissionIn2022 > div {
   font-size: 15px;
@@ -41,7 +67,7 @@ h1 {
 }
 
 .myMissionIn2022 img {
-  width: 20%;
+  width: 30%;
   align-items: center;
 }
 #firstColumn {
@@ -68,7 +94,7 @@ h1 {
   padding: 20px;
   text-align: left;
 }
-.devlopWithoutLimit img{
+.devlopWithoutLimit img {
   float: left;
   width: 20%;
 }
